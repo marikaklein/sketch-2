@@ -1,0 +1,378 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+body {
+  background-color: black;
+}
+
+.frame {
+    position: relative;
+    width: 95vw;
+    height: 57vw;
+    background: white;
+    margin: 2.5vw auto;
+}
+
+.table {
+    position: relative;
+    width: 100%;
+    height: 44%;
+    bottom: -56%;
+    background-color: beige;
+    margin: 2.5% auto;
+}
+
+/* CAULDRON */
+
+.cauldron {
+    position: relative;
+    width: 21%;
+    height: 31%;
+    bottom: 7%;
+    left: -8%;
+    background-color: #000000;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: 25%;
+    border-top-left-radius: 25%;
+    margin: 2.5% auto;
+}
+
+.cauldron-middle {
+    position: relative;
+    width: 23%;
+    height: 28%;
+    bottom: 41%;
+    left: -8%;
+    background-color: #000000;
+    border-radius: 90%;
+    margin: 2.5% auto;
+}
+
+.cauldron-lid {
+    position: relative;
+    width: 17%;
+    height: 8%;
+    bottom: 79%;
+    left: -8%;
+    background-color: #272323;
+    border-radius: 45%;
+    margin: 2.5% auto;
+}
+
+.cauldron-handle-r {
+    position: relative;
+    width: 2%;
+    height: 11%;
+    bottom: 94%;
+    left: 3%;
+    background-color: #272323;
+    transform: rotate(160deg);
+    margin: 2.5% auto;
+}
+
+.cauldron-handle-l {
+    position: relative;
+    width: 2%;
+    height: 11%;
+    bottom: 109%;
+    left: -19%;
+    background-color: #272323;
+    transform: rotate(-160deg);
+    margin: 2.5% auto;
+}
+
+.cauldron-top {
+    position: relative;
+    width: 3%;
+    height: 5%;
+    bottom: 95%;
+    left: -8%;
+    background-color: #000000;
+    border-radius: 100%;
+    margin: 2.5% auto;
+}
+
+/* BIRD */
+
+.bird-body {
+    position: relative;
+    width: 13%;
+    height: 9%;
+    bottom: 95%;
+    left: -34%;
+    background-color: brown;
+    border-radius: 100%;
+    transform: rotate(-170deg);
+    margin: 2.5% auto;
+}
+
+.bird-wing {
+    position: relative;
+    width: 13%;
+    height: 5%;
+    bottom: 106%;
+    left: -37%;
+    background-color: brown;
+    border-radius: 120%;
+    transform: rotate(-174deg);
+    margin: 2.5% auto;
+}
+
+.bird-tail {
+    position: relative;
+    width: 13%;
+    height: 6%;
+    bottom: 123%;
+    left: -41%;
+    background-color: brown;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+    transform: rotate(34deg);
+    margin: 2.5% auto;
+}
+
+.bird-head {
+    position: relative;
+    width: 6%;
+    height: 6%;
+    bottom: 126%;
+    left: -28%;
+    background-color: brown;
+    border-radius: 90%;
+    transform: rotate(-18deg);
+    margin: 2.5% auto;
+}
+
+.bird-beak {
+    position: relative;
+    width: 3%;
+    height: 2%;
+    bottom: 136%;
+    left: -25%;
+    background-color: brown;
+    border-radius: 90%;
+    transform: rotate(-26deg);
+    margin: 2.5% auto;
+}
+
+.bird-stand {
+    position: relative;
+    width: 1%;
+    height: 12%;
+    bottom: 136%;
+    left: -34%;
+    background-color: brown;
+    margin: 2.5% auto;
+}
+
+.bird-base {
+    position: relative;
+    width: 12%;
+    height: 5%;
+    bottom: 141%;
+    left: -34%;
+    background-color: brown;
+    transform: rotate(1deg);
+    margin: 2.5% auto;
+}
+
+.bird-base-hilite {
+    position: relative;
+    width: 12%;
+    height: 2%;
+    bottom: 150%;
+    left: -34%;
+    background-color: #8c6061;
+    transform: rotate(1deg);
+    margin: 2.5% auto;
+}
+
+/* CANDLE */
+
+
+.candle-wick {
+    position: relative;
+    width: 0.5%;
+    height: 2%;
+    bottom: 222%;
+    left: -15%;
+    background-color: #232119;
+    margin: 2.5% auto;
+}
+
+.candle-wax {
+    position: relative;
+    width: 3%;
+    height: 14%;
+    bottom: 226%;
+    left: -15%;
+    background-color: beige;
+    margin: 2.5% auto;
+}
+
+.candle-base {
+    position: relative;
+    width: 3%;
+    height: 10%;
+    bottom: 231%;
+    left: -15%;
+    background-color: gold;
+    margin: 2.5% auto;
+}
+
+.candle-stick {
+    position: relative;
+    width: 1%;
+    height: 35%;
+    bottom: 236%;
+    left: -15%;
+    background-color: gold;
+    margin: 2.5% auto;
+}
+
+.candle-bottom {
+    position: relative;
+    width: 12%;
+    height: 9%;
+    bottom: 244%;
+    left: -15%;
+    background-color: gold;
+    border-radius: 50%;
+    margin: 2.5% auto;
+}
+
+/* SQUASH */
+
+.squash {
+    position: relative;
+    width: 32%;
+    height: 27%;
+    bottom: 270%;
+    left: 21%;
+    background-color: #fbef67;
+    border-radius: 50%;
+    box-shadow: -5vw 3vw 6vh #6b6b6b;
+    transform: rotate(-3deg);
+    margin: 2.5% auto;
+}
+
+.squash-stem {
+    position: relative;
+    width: 3%;
+    height: 5%;
+    bottom: 293%;
+    left: 37%;
+    background-color: #1c270f;
+    border-radius: 45%;
+    margin: 2.5% auto;
+}
+
+.squash-line-1 {
+    position: relative;
+    width: 16%;
+    height: 0.5%;
+    bottom: 300%;
+    left: 13%;
+    background-color: #1d2710;
+    border-radius: 50%;
+    transform: rotate(-14deg);
+    opacity: 0.5;
+    margin: 2.5% auto;
+}
+
+.squash-line-2 {
+    position: relative;
+    width: 15%;
+    height: 0.5%;
+    bottom: 298%;
+    left: 13%;
+    background-color: #1d2710;
+    border-radius: 50%;
+    transform: rotate(-1deg);
+    opacity: 0.5;
+    margin: 2.5% auto;
+}
+
+.squash-line-3 {
+    position: relative;
+    width: 17%;
+    height: 0.5%;
+    bottom: 311%;
+    left: 28%;
+    background-color: #1d2710;
+    border-radius: 50%;
+    transform: rotate(6deg);
+    opacity: 0.5;
+    margin: 2.5% auto;
+}
+
+.squash-line-4 {
+    position: relative;
+    width: 17%;
+    height: 0.5%;
+    bottom: 311%;
+    left: 29%;
+    background-color: #1d2710;
+    border-radius: 50%;
+    transform: rotate(-14deg);
+    opacity: 0.5;
+    margin: 2.5% auto;
+}
+
+.squash-line-5 {
+    position: relative;
+    width: 12%;
+    height: 0.5%;
+    bottom: 324%;
+    left: 13%;
+    background-color: #1d2710;
+    border-radius: 50%;
+    transform: rotate(-14deg);
+    opacity: 0.5;
+    margin: 2.5% auto;
+}
+
+.squash-line-6 {
+    position: relative;
+    width: 15%;
+    height: 0.5%;
+    bottom: 330%;
+    left: 26%;
+    background-color: #1d2710;
+    border-radius: 50%;
+    transform: rotate(6deg);
+    opacity: 0.5;
+    margin: 2.5% auto;
+}
+
+.squash-line-7 {
+    position: relative;
+    width: 12%;
+    height: 0.5%;
+    bottom: 316%;
+    left: 13%;
+    background-color: #1d2710;
+    border-radius: 50%;
+    transform: rotate(3deg);
+    opacity: 0.5;
+    margin: 2.5% auto;
+}
+
+.squash-line-8 {
+    position: relative;
+    width: 18%;
+    height: 0.5%;
+    bottom: 323%;
+    left: 27%;
+    background-color: #1d2710;
+    border-radius: 50%;
+    transform: rotate(-12deg);
+    opacity: 0.5;
+    margin: 2.5% auto;
+}
